@@ -34,3 +34,6 @@ xserver-xephyr
 xserver-xorg-input-all
 xserver-xorg-legacy
 xserver-xorg-video-intel
+unzip
+pandoc
+zip
