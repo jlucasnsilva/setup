@@ -14,6 +14,8 @@ curl
 feh
 firefox
 fish
+fonts-ubuntu
+fonts-ubuntu-console
 fzf
 gimp
 git
@@ -38,6 +40,7 @@ network-manager
 pandoc
 stow
 tree
+ubuntu-restricted-extras
 unzip
 wget
 xserver-common

@@ -69,7 +69,10 @@ call plug#begin(stdpath('data') . '/plugged')
 	Plug 'tpope/vim-surround'
 	Plug 'tpope/vim-commentary'
 	Plug 'tpope/vim-rsi'
+	Plug 'olivertaylor/vacme'
 call plug#end()
+
+colorscheme vacme
 
 " ---------------------------------------------------------
 " ALE
