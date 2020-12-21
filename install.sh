@@ -9,5 +9,6 @@ install/go.sh
 install/vim.sh
 install/nvm.sh
 install/oh-my-fish.sh
+install/brave.sh
 
 sudo apt autoremove
