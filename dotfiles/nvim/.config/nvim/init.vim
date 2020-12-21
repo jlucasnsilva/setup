@@ -56,6 +56,7 @@ set smarttab
 set tabstop=4 softtabstop=4
 set nowrap
 set scrolloff=10
+set clipboard+=unnamedplus
 
 call plug#begin(stdpath('data') . '/plugged')
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }

@@ -1,6 +1,7 @@
 acpi
 alsa-utils
 apt-file
+apt-transport-https
 apt-utils
 build-essential
 clang
@@ -12,12 +13,16 @@ coreutils
 curl
 feh
 firefox
+fish
+fzf
+gimp
 git
 gstreamer1.0-plugins-base
 gstreamer1.0-plugins-good
 gstreamer1.0-pulseaudio
 gstreamer1.0-x
 htop
+inkscape
 libx11-6
 libx11-dev
 libxft-dev
