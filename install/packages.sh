@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install xinit lightdm --no-install-recommends --no-install-suggests
+sudo apt install -y xinit lightdm --no-install-recommends --no-install-suggests
 
 sudo apt purge -y vim-tiny
 
