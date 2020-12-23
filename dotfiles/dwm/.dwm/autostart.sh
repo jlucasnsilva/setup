@@ -1,5 +1,7 @@
 #!/bin/bash
 
-~/.fehbg
-
 compton -b
+
+pulseaudio -D
+
+fish -c 'wallpapers' &

@@ -41,6 +41,7 @@ neovim
 network-manager
 pandoc
 pavucontrol
+rfkill
 stow
 transmission-gtk
 tree

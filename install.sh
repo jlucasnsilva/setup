@@ -12,3 +12,6 @@ install/oh-my-fish.sh
 install/brave.sh
 
 sudo apt autoremove
+
+# Makes network manager go crazy and actually help me
+sudo touch /etc/NetworkManager/conf.d/10-globally-managed-devices.conf
