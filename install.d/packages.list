@@ -38,6 +38,7 @@ libxrandr2
 lightdm-gtk-greeter
 make
 neovim
+net-tools
 network-manager
 pandoc
 pavucontrol
