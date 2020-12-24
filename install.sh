@@ -12,6 +12,7 @@ install.rc/brave.sh
 
 config.rc/dotfiles.sh
 config.rc/network.sh
+config.rc/fonts.sh
 
 sudo apt autoremove
 
