@@ -1,0 +1,30 @@
+{
+	"separator": " | ",
+	"actions": 
+	[
+        {
+			"updateSignal": "36",
+			"command": "nmcli device wifi list | grep '^\\*' | awk '{ print $3 \" \" $9 }'",
+			"timer": "1m"
+		},
+        {
+			"prefix": "🔊 ",
+			"updateSignal": "36",
+			"command": "amixer get Master | grep -E '\\[[0-9]{3}%\\]' | grep -oE '[0-9]*%'",
+			"timer": "1s"
+		},
+		{
+			"prefix": "🕑 ",
+			"updateSignal": "36",
+			"command": "date +'%H:%M'",
+			"timer": "1m"
+		},
+		{
+			"prefix": "🗓 ",
+			"updateSignal": "35",
+			"command": "date +'%d/%m/%Y'",		
+			"timer": "1m"
+		}
+	]
+
+}

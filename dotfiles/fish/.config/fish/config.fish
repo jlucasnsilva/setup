@@ -1,4 +1,4 @@
-set GOPATH ~/.golang
-set GOROOT /usr/local/go
-set PATH $PATH $GOROOT/bin $GOPATH/bin
-set WALLPAPERS ~/imagens/wallpapers
+set -x GOPATH ~/.golang
+set -x GOROOT /usr/local/go
+set -x PATH $PATH $GOROOT/bin $GOPATH/bin
+set -x WALLPAPERS ~/imagens/wallpapers
