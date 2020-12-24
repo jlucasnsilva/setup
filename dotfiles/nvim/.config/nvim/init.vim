@@ -54,9 +54,11 @@ set showmatch
 set smartcase
 set smartindent
 set smarttab
-set tabstop=4 softtabstop=4
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set nowrap
-set scrolloff=10
+set scrolloff=4
 set clipboard+=unnamedplus
 
 call plug#begin(stdpath('data') . '/plugged')
@@ -71,9 +73,14 @@ call plug#begin(stdpath('data') . '/plugged')
 	Plug 'tpope/vim-commentary'
 	Plug 'tpope/vim-rsi'
 	Plug 'olivertaylor/vacme'
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 colorscheme vacme
+let g:airline_theme='molokai'
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
 
 " ---------------------------------------------------------
 " ALE
