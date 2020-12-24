@@ -10,7 +10,7 @@
         {
 			"prefix": "🔊 ",
 			"updateSignal": "36",
-			"command": "amixer get Master | grep -E '\\[[0-9]{3}%\\]' | grep -oE '[0-9]*%'",
+			"command": "fish -c 'show-volume'",
 			"timer": "1s"
 		},
 		{
