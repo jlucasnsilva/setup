@@ -77,6 +77,9 @@ call plug#begin(stdpath('data') . '/plugged')
     Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
+nnoremap <c-p> :Files <enter>
+nnoremap <c-s-p> :GFiles <enter>
+
 colorscheme vacme
 let g:airline_theme='molokai'
 let g:airline_powerline_fonts = 1

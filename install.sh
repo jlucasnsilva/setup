@@ -9,6 +9,9 @@ install.rc/vim.sh
 install.rc/nvm.sh
 install.rc/oh-my-fish.sh
 install.rc/brave.sh
+install.rc/docker.sh
+install.rc/gtk-theme.sh
+install.rc/fff.sh
 
 config.rc/dotfiles.sh
 config.rc/network.sh

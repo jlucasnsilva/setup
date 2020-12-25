@@ -1,0 +1,5 @@
+#!/bin/bash
+
+download_link=https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MDg2NjU5NjMiLCJ1IjpudWxsLCJsdCI6ImRvd25sb2FkIiwicyI6IjUzZDYyZWIwMjc3NjZkYTcxNTRlNzBlMWNkODc5NmY5OTdiZDMzOTdmZmNlODVkMzU3YWM0MmI4OTNjMzliM2U5ZTViMmFjYWVkMTI0YzI2MGI5ZTMyMTg4YzUwMGQ4MGQxNjg2ZDg2N2IxYzE4YmM2NDI0ZDAxMzc2MTk3NmZmIiwidCI6MTYwODg5ODE2OSwic3RmcCI6ImE1YTUxNWY1MTE5NWUxMDJkYzRmZWNiMWE2YTgzYzMxIiwic3RpcCI6IjE3Ny4xMzEuMjE4LjMifQ.eP6V7M6I38BqCdvosmGxj0TDwORncOMw_aGUL8WxdUk/Ant.tar
+
+wget -qO- $download_link | sudo tar -C /usr/share/themes/ -xJf -

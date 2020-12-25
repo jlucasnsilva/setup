@@ -12,6 +12,7 @@ clangd
 compton
 coreutils
 curl
+fbset
 feh
 firefox
 fish
@@ -37,6 +38,8 @@ libxinerama1
 libxrandr-dev
 libxrandr2
 lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+lxappearance
 make
 neovim
 net-tools
@@ -50,7 +53,9 @@ tree
 ubuntu-restricted-extras
 unzip
 vlc
+w3m-img
 wget
+xdotool
 xserver-common
 xserver-xephyr
 xserver-xorg-input-all
