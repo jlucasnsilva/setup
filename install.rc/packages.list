@@ -5,6 +5,7 @@ apt-file
 apt-transport-https
 apt-utils
 build-essential
+calc
 clang
 clang-format
 clang-tools
@@ -47,6 +48,7 @@ network-manager
 pandoc
 pavucontrol
 rfkill
+ripgrep
 stow
 transmission-gtk
 tree

@@ -5,6 +5,7 @@ dbus-x11
 dconf-cli
 desktop-file-utils
 easytag
+evince
 enchant-2
 gucharmap
 hunspell-en-us
@@ -13,5 +14,6 @@ libenchant-2-2
 libhunspell-1.7-0
 lightdm
 screengrab
+texlive-latex-extra
 thunar
 xinit

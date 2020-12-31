@@ -4,6 +4,11 @@
 	[
         {
 			"updateSignal": "36",
+			"command": "fish -c 'show-battery'",
+			"timer": "1m"
+		},
+        {
+			"updateSignal": "36",
 			"command": "nmcli device wifi list | grep '^\\*' | awk '{ print $3 \" \" $9 }'",
 			"timer": "1m"
 		},

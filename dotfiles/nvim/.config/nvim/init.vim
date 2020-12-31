@@ -33,6 +33,10 @@ if &t_Co == 8 && $TERM !~# '^linux\|^Eterm'
   set t_Co=16
 endif
 
+if executable('rg')
+    let g:rg_derive_root='true'
+endif
+
 " https://github.com/awesome-streamers/awesome-streamerrc/blob/master/ThePrimeagen/init.vim
 set autoindent
 set autowrite
@@ -62,6 +66,7 @@ set scrolloff=4
 set clipboard+=unnamedplus
 
 call plug#begin(stdpath('data') . '/plugged')
+    Plug 'jiangmiao/auto-pairs'
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 	Plug 'junegunn/fzf.vim'
 	Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
@@ -73,14 +78,25 @@ call plug#begin(stdpath('data') . '/plugged')
 	Plug 'tpope/vim-commentary'
 	Plug 'tpope/vim-rsi'
 	Plug 'olivertaylor/vacme'
+    Plug 'robertmeta/nofrils'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+    Plug 'jremmen/vim-ripgrep'
 call plug#end()
 
-nnoremap <c-p> :Files <enter>
-nnoremap <c-s-p> :GFiles <enter>
+nnoremap <Leader>s :%s/\<<C-r><C-w>\>//g<Left><Left>
 
-colorscheme vacme
+nnoremap <Leader>o i<CR><ESC>
+
+nnoremap <c-p> :Files <enter>
+nnoremap <Leader>p :Rg 
+
+nnoremap <c-k> ddkP
+nnoremap <c-j> ddp
+
+" colorscheme vacme
+colorscheme nofrils-acme
+
 let g:airline_theme='molokai'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
