@@ -8,6 +8,7 @@ build-essential
 calc
 clang
 clang-format
+clang-tidy
 clang-tools
 clangd
 compton
@@ -30,6 +31,10 @@ gstreamer1.0-x
 htop
 hugo
 inkscape
+libsdl2-dev
+libsdl2-image-dev
+libsdl2-mixer-dev
+libsdl2-ttf-dev
 libx11-6
 libx11-dev
 libxft-dev
