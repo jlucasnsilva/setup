@@ -100,6 +100,7 @@ nnoremap <Leader>s :%s/\<<C-r><C-w>\>//g<Left><Left>
 nnoremap <Leader>o i<CR><ESC>
 
 nnoremap <c-p> :Files <enter>
+nnoremap <Leader>b :Buffers <enter>
 nnoremap <Leader>p :Rg 
 
 nnoremap <c-k> ddkP
